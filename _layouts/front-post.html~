@@ -1,0 +1,35 @@
+---
+layout: front-post
+---
+
+	<div id="main" class="wrapper">
+
+		<br>
+		<br>
+
+		<div id="content" role="main">
+
+									
+			<article id="post-39" class="post-39 page type-page status-publish hentry">
+				<header class="entry-header">
+					<h1 class="entry-title">Home</h1>
+				</header>
+
+				<div class="entry-content">
+				
+					{{content}}	
+
+				</div><!-- .entry-content -->
+							
+				<footer class="entry-meta">
+				</footer><!-- .entry-meta -->
+				
+			</article><!-- #post -->
+						
+			<div id="comments" class="comments-area">
+											
+			</div><!-- #comments .comments-area -->	
+				
+		</div><!-- #content -->
+
+	</div><!-- #main.wrapper -->

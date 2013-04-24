@@ -1,0 +1,11 @@
+auto: true
+server: true
+site_name: 'Project Sonya'
+site_url: 'http://localhost:4000'
+plugins: ./_plugins
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /:categories/:title
+paginate: 3
+searchindex: yes

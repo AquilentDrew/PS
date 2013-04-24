@@ -1,0 +1,34 @@
+---
+
+layout: front-post
+
+title: Sign In
+
+categories: screen-patterns
+
+categoryheader: no
+
+tags:
+- Screen Patterns
+
+--- 
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#tab1">Mockup</a></li>
+<li><a data-toggle="tab" href="#tab2">Wireframe</a></li>
+</ul>
+<div class="tab-content">
+<div id="tab1" class="tab-pane active">
+<p><a href="../../images/healthcare-marketplace-appstart.jpg"></a><a href="../../images/healthcare-marketplace-login.jpg"><img width="1040" height="854" src="../../images/healthcare-marketplace-login.jpg" alt="healthcare-marketplace-login" class="alignnone size-full wp-image-1385"></a></p>
+<ol class="rounded-list">
+<li><a><span>High-contrast, dark blue screens are a visual signal to the user that these are “guiding” screens that will help you through the process and usher you onto next steps</span></a></li>
+</ol>
+</div>
+<div id="tab2" class="tab-pane">
+<p><a href="../../images/Application___Start_Application-e1359494946791.jpg"></a><a href="../../images/My_Account___Sign_In.jpg"><img width="958" height="782" src="../../images/My_Account___Sign_In.jpg" alt="My_Account___Sign_In" class="alignnone size-full wp-image-1321"></a></p>
+<ol class="rounded-list">
+<li><a><span></span></a></li>
+</ol>
+</div>
+</div>
+<p><a href="/screen-patterns/application-in-progress/" title="Application In-Progress"><button type="button" class="btn">Next: Application In-Progess</button></a></p>

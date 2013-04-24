@@ -1,0 +1,105 @@
+
+<!-- TWO STEPS TO INSTALL COOKIE PASSWORD PROTECTION:
+
+   1.  Put the designated coding into the HEAD of your login document
+   2.  Paste the final coding into the BODY of your login document  -->
+
+<!-- STEP ONE: Copy this code into the HEAD of your login document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more available at The JavaScript Source!!  -->
+<!-- via the Internet  U R L :  http://www.compfund.com/javascript/  -->
+
+<!-- Begin
+function getCookieVal (offset) {
+var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)
+endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name)  {
+var arg = name + "=";
+var alen = arg.length;
+var clen = document.cookie.length;
+var i = 0;
+while (i < clen)  {
+var j = i + alen;
+if (document.cookie.substring(i, j) == arg)
+return getCookieVal (j);i = document.cookie.indexOf(" ", i) + 1;
+if (i == 0) break; 
+}
+return null;
+}
+function SetCookie (name, value)  {
+var argv = SetCookie.arguments;
+var argc = SetCookie.arguments.length;
+var expires = (argc > 2) ? argv[2] : null;
+var path = (argc > 3) ? argv[3] : null;
+var domain = (argc > 4) ? argv[4] : null;
+var secure = (argc > 5) ? argv[5] : false;
+document.cookie = name + "=" + escape (value) +
+((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+((path == null) ? "" : ("; path=" + path)) +
+((domain == null) ? "" : ("; domain=" + domain)) +
+((secure == true) ? "; secure" : "");
+}
+function DeleteCookie () { 
+var exp = new Date();
+exp.setTime (exp.getTime() - 1000000000);  // This cookie is history
+var cval = GetCookie ('FreeStuffL');
+document.cookie ='FreeStuffL' + "=" + cval + "; expires=" + exp.toGMTString();    
+}
+function cookieCreater () {
+if(GetCookie('FreeStuffL') == null) {
+var FreeStuffL_Name =  prompt ("What is your name?", "" );
+if (FreeStuffL_Name != null && FreeStuffL_Name != "") {
+var expdate = new Date (); 
+expdate.setTime(expdate.getTime() + (24 * 60 * 60)); 
+SetCookie('FreeStuffL', FreeStuffL_Name, expdate);  
+alert ("You now are logged in!  From now on, when you come to this page, you will be forwarded to the Password Protected Members-Only Area.  Please do not tell anyone your entry code.");
+location.href = "start.html"
+   }
+}
+else {
+DeleteCookie ();
+cookieCreater ()
+}
+}
+if(GetCookie('FreeStuffL') != null) {
+DeleteCookie(); 
+location.href="start.html"
+}
+function check() {
+
+if (document.login.numOne.value=="sonya") {
+alert ("That is correct!");
+cookieCreater ();
+}
+else {
+alert ("Incorrect password, try again!");
+      }
+   }
+
+// End -->
+</SCRIPT>
+
+<!-- STEP TWO: Copy this code into the BODY of your login document  -->
+
+<BODY>
+
+<center>
+<form name="login">
+Enter your pass code:
+<p><input TYPE="text" NAME="numOne" SIZE="15"><br>
+<input TYPE="button" VALUE="Login" ONCLICK="check()">
+</form>
+</center>
+<font size="1" color="white">
+This page requires Javascript to run!  Please get Netscape 2.0 or greater!
+</font>
+<form name="login2">
+<input type="hidden" name="go" value="js_pass_cookie-in.html">
+</form>

@@ -1,0 +1,46 @@
+---
+
+layout: front-post
+
+title: Homepage
+
+categories: screen-patterns
+
+categoryheader: no
+
+tags:
+- Screen Patterns
+
+--- 
+
+<p>The Homepage for HealthCare.gov will evolve throughout the year. For instance, during Open Enrollment, the focus will be to login or get started on the enrollment process, however during the months leading up to Open Enrollment, the focus will be preparing users for enrollment.</p>
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#tab1">Mockup</a></li>
+<li><a data-toggle="tab" href="#tab2">Mockup 2</a></li>
+<li><a data-toggle="tab" href="#tab3">Wireframe</a></li>
+</ul>
+<div class="tab-content">
+<div id="tab1" class="tab-pane active">
+<p><a href="../../images/healthcare-homepage.png"><img width="1040" height="1450" src="../../images/healthcare-homepage.png" alt="healthcare-homepage" class="alignnone size-full wp-image-1393"></a></p>
+<ol class="rounded-list">
+<li><a><span>Coming.</span></a></li>
+</ol>
+</div>
+<div id="tab2" class="tab-pane"><a href="../../images/healthcare-homepage-1a.png"><img width="1040" height="1450" src="../../images/healthcare-homepage-1a.png" alt="healthcare-homepage-1a" class="alignnone size-full wp-image-1387"></a><p></p>
+<ol class="rounded-list">
+<li><a><span>Coming.</span></a></li>
+</ol>
+</div>
+<div id="tab3" class="tab-pane">
+<p><a href="../../images/Homepage.jpg"><img width="959" height="1076" src="../../images/Homepage.jpg" alt="Homepage" class="alignnone size-full wp-image-1306"></a></p>
+<ol class="rounded-list">
+<li><a><span>Short global header, maximizes real estates for content above the fold</span></a></li>
+<li><a><span>Less noise in global header, only the most important links survive<br>
+</span></a></li>
+<li><a><span>Español toggle in a prominent spot to account for our audience</span></a></li>
+<li><a><span>Call to actions work from top, left to bottom, right which supports common eye tracking patterns</span></a></li>
+<li><a><span>The popular questions scroller allows users to horizontally scroll through questions and find the answers they are looking for.</span></a></li>
+</ol>
+</div>
+</div>
+<p><a href="/screen-patterns/audience-based-landing-page/" title="Homepage mobile"><button type="button" class="btn">Next: Audience-Based Landing Page</button></a></p>

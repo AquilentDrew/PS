@@ -1,0 +1,33 @@
+
+<!-- TWO STEPS TO INSTALL COOKIE PASSWORD PROTECTION:
+
+   1.  Put the designated coding into the HEAD of your login document
+   2.  Paste the final coding into the BODY of your login document  -->
+
+<!-- STEP ONE: Copy this code into the HEAD of your login document  -->
+
+<HEAD>
+<script type="text/javascript" src="../js/auth.js"></script>
+
+
+<!-- STEP TWO: Copy this code into the BODY of your login document  -->
+
+<BODY>
+
+<center>
+<form name="login" onsubmit='check()'>
+Enter your login code:
+<p>
+<!-- <input TYPE="text" NAME="numOne" SIZE="15"><br>
+<input TYPE="text" NAME="numTwo" SIZE="15"><br>
+-->
+<input TYPE="text" NAME="numThree" SIZE="15"><br>
+<input TYPE="button" VALUE="Login" ONCLICK="check()">
+</form>
+</center>
+<font size="1" color="white">
+This page requires Javascript to run!  Please get Netscape 2.0 or greater!
+</font>
+<form name="login2">
+<input type="hidden" name="go" value="start.html">
+</form>

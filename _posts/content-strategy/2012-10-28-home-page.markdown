@@ -1,0 +1,88 @@
+---
+
+layout: interior-post
+
+title: Home Page
+
+categories: content-strategy
+
+categoryheader: no
+
+tags:
+- content 
+- content principles
+
+--- 
+
+<p><span style="line-height: 1.714285714; font-size: 1rem;">The home page is designed to support visitors’ progress on the Ladder of Engagement, from Awareness to Enrollment. To do this, the page must accomplish the following:</span></p>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Convey high-level information about what the Marketplace is and does</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Drive email signups (and, later, account creation)</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Direct people to the most important educational content about the Marketplace</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Direct people who run a small business to a landing page exclusively for their needs</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Invite user engagement that supports Marketplace education and outreach</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Indicate availability of information about other features of the ACA</span></li>
+<li><span style="background-color: #ffffff;">Begin establishing trust</span></li>
+</ul>
+<p><img width="1040" height="700" src="../../images/homepage-cropped.png" alt="homepage-cropped" class="alignnone size-full wp-image-2104"><br>
+<a href="/screen-patterns/homepage/" title="Homepage">View Homepage screen pattern</a></p>
+<h3>Structure and design</h3>
+<p>When visitors arrive at healthcare.gov, the “Learn” tab is open.</p>
+<p>Our design is radically simple. Images, illustrations, and icons (and in some cases video) should carry much of the communication. Words must be short, simple, and plain.</p>
+<p>Links on the home page are few, to ensure people are driven to only the most important information and tasks <span style="background-color: #ffffff;">as determined by user traffic and research.</span> All links support the site’s high-level goals. Link language and icons must be well-scented, so it is absolutely clear what content appears on the other side of the link.</p>
+<div id="TbsCollapseId-223805837" class="accordion ">
+</div>
+<div class="accordion-group ">
+<div class="accordion-heading">
+<a href="#TbsCollapseGroupId-107517399" data-parent="#TbsCollapseId-223805837" data-toggle="collapse" class="accordion-toggle">
+Dig deeper into the new home page				</a>
+</div>
+<div class="accordion-body collapse " id="TbsCollapseGroupId-107517399">
+<div class="accordion-inner">
+					
+<p>Below the main image appear a strip of four icons that lead to the site’s most critical information and tasks. These are selected in response to user and business needs. If more links/icons are featured, the user can use arrows on either side of the screen to see them. Performance of these links will be tested continually.</p>
+<p>There is no rotating billboard on the home page. Images may be changed regularly in response to business and user needs. Both CMS and ASPA/Digital Communications Division data across many sites demonstrate that few people click on the first billboard shown, and clicks on additional billboards are vanishingly few. While it can be argued that content exposure on a billboard delivers value even when not clicked, we feel the complication and distraction of billboards is at odds with our need to keep the home pages very simple and clean to direct users to only the most important tasks related to enrolling in the Marketplace and accessing benefits of the ACA.</p>
+</div>
+</div>
+</div>
+		
+<h3>The Functional Footer</h3>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">We are introducing a new feature increasingly popular in commercial and non-profit sites but largely overlooked by the federal government: the functional footer (sometimes known as a “super-footer” or “mega-footer”). We use the footer to provide home page exposure for important information that does not support the site’s most compelling business goals.</span></p>
+<div id="TbsCollapseId-312905505" class="accordion ">
+</div>
+<div class="accordion-group ">
+<div class="accordion-heading">
+<a href="#TbsCollapseGroupId-1026153928" data-parent="#TbsCollapseId-312905505" data-toggle="collapse" class="accordion-toggle">
+View functional footer design and content				</a>
+</div>
+<div class="accordion-body collapse " id="TbsCollapseGroupId-1026153928">
+<div class="accordion-inner">
+
+<h4>Our functional footer includes the following:</h4>
+<p><a href="../../images/functional-footer.png"><img width="1040" height="750" src="../../images/functional-footer.png" alt="functional-footer" class="alignnone size-full wp-image-1396"></a></p>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Links to the three most recent news releases (dynamically generated)</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">The most recent blog entry with blurb, along with titles of the two next most recent entries</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Quick Information: Links to information for the media (we create a new media landing page on hhs.gov/aca), states, agents and brokers (to CCIIO information for them), stakeholders (CCIIO), and other publics that are not in our primary audience but who are likely to come to healthcare.gov looking for information and need guidance to the right place.</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Connect &amp; Get Involved: A link to our new page that combines real-life and digital engagement opportunities, along with selected links to top tasks on that page</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Top Content: Links to each of the Topics that appear on the All Topics page (providing direct user navigation to categories of information)</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">A Get Email Updates widget</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">How We Protect Your Information: A link to a page featuring a topic critical to expose at a high level</span></li>
+</ul>
+<p>It’s important to note that the footer appears on all pages, so all of this content will be exposed to users throughout the site. If we wish, however, we can collapse menus on the footer for inside pages. The footer is called on mobile only if a user selects it from a bottom-of-page gray link that reads “More Links.”</p>
+</div>
+</div>
+</div>
+
+<h3>June through September Home Page</h3>
+<p>In June-September:</p>
+<ul>
+<li>Single image with brief explanatory text that builds trust, engagement, and education</li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Icons line the lower part of the page addressing top concerns of our target audience as identified by research; these can be increased in number </span></li>
+<li>One links&nbsp;<span style="line-height: 1.714285714; font-size: 1rem;">shuttles small business operators to their landing page</span></li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">a prominent email widget drives sign-ups (replaced or joined by “Begin Enrollment” when&nbsp;this features becomes&nbsp;available)</span></li>
+</ul>
+<p>As the months pass and more Marketplace information is available links and messaging will change. When a detailed video previewing the Marketplace is available it may appear on the page.</p>
+<h3>October</h3>
+<p>In October, the Learn home page consists almost entirely of a single image and prompt to the Get Enrolled landing page. There is one other link:&nbsp;<span style="line-height: 1.714285714; font-size: 1rem;">“Have health insurance? Learn about your rights and benefits under the Affordable Care Act.” This leads to a page of content items that describe key benefits of the law.</span></p>
+<div class="article-end"><a href="/content-strategy/all-topics/" title="All Topics"><button type="button" class="btn btn-large">Next: All Topics</button></a></div>

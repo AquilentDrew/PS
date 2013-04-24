@@ -1,0 +1,13 @@
+---
+layout: interior-post
+title: Preview Index
+categories: audience
+--- 
+
+{% for post in site.posts %}
+<div class="preview-pane">
+<a class="preview-pane-header" href="{{post.url}}">{{post.title}}</a>
+  {{post.content | truncatewords: 20}}<br />
+<a class="preview-pane-btnView" href="{{post.url}}">view more</a>
+</div>
+{% endfor %}
